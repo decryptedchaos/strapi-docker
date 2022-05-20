@@ -12,7 +12,7 @@ if [ "$1" = "strapi" ]; then
     echo "Using strapi $(strapi version)"
     echo "No project found at /srv/app. Creating a new strapi project"
 
-    DOCKER=true yarn create strapi-app .  --quickstart --template @strapi/template-blog@1.0.0 blog \
+    DOCKER=true strapi new . \
       --dbclient=$DATABASE_CLIENT \
       --dbhost=$DATABASE_HOST \
       --dbport=$DATABASE_PORT \
