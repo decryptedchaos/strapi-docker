@@ -1,5 +1,10 @@
 # [Strapi](https://github.com/strapi/strapi) containerized
 
+> ⚠️  This image is only for Strapi v3. For now, we will not update it for v4.
+> 
+> However, to build an image compatible with Strapi v4, we recommend you check out this tool created by the Strapi Community: https://github.com/strapi-community/strapi-tool-dockerize
+</br>
+
 ![Strapi](https://cldup.com/7umchwdUBh.png)
 
 API creation made simple, secure and fast.
@@ -7,7 +12,7 @@ The most advanced open-source Content Management Framework to build powerful API
 
 ---
 
-[![Travis](https://img.shields.io/travis/strapi/strapi-docker.svg?style=for-the-badge)](https://travis-ci.org/strapi/strapi-docker)
+[![Travis](https://img.shields.io/travis/com/strapi/strapi-docker.svg?style=for-the-badge)](https://app.travis-ci.com/github/strapi/strapi-docker)
 [![Docker Pulls](https://img.shields.io/docker/pulls/strapi/strapi.svg?style=for-the-badge)](https://hub.docker.com/r/strapi/strapi)
 
 ## Images
